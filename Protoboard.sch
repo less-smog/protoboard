@@ -316,4 +316,91 @@ Wire Wire Line
 	5400 3100 6000 3100
 Text Notes 5250 2300 0    60   ~ 0
 Level Converter for WS2812\n
+Text GLabel 8100 3450 0    60   Input ~ 0
+SCL
+Text GLabel 8100 3600 0    60   Input ~ 0
+SDA
+Text GLabel 8100 3750 0    60   Input ~ 0
++3.3V
+Text GLabel 8100 3900 0    60   Input ~ 0
++5V
+Text GLabel 8100 4050 0    60   Input ~ 0
+GND
+Text GLabel 8100 4200 0    60   Input ~ 0
+TXD
+Text GLabel 8100 4350 0    60   Input ~ 0
+RXD
+Text GLabel 8100 4500 0    60   Input ~ 0
+SET
+Text GLabel 8100 4650 0    60   Input ~ 0
+RESET
+Text GLabel 8100 4800 0    60   Input ~ 0
+DIN
+$Comp
+L CONN_01X10 P6
+U 1 1 58C59B8A
+P 9350 4150
+F 0 "P6" H 9350 4700 50  0000 C CNN
+F 1 "CONN_01X10" V 9450 4150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10" H 9350 4150 50  0001 C CNN
+F 3 "" H 9350 4150 50  0000 C CNN
+	1    9350 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3700 9050 3700
+Wire Wire Line
+	9050 3700 9050 3450
+Wire Wire Line
+	9050 3450 8100 3450
+Wire Wire Line
+	9150 3800 8950 3800
+Wire Wire Line
+	8950 3800 8950 3600
+Wire Wire Line
+	8950 3600 8100 3600
+Wire Wire Line
+	9150 3900 8850 3900
+Wire Wire Line
+	8850 3900 8850 3750
+Wire Wire Line
+	8850 3750 8100 3750
+Wire Wire Line
+	9150 4000 8750 4000
+Wire Wire Line
+	8750 4000 8750 3900
+Wire Wire Line
+	8750 3900 8100 3900
+Wire Wire Line
+	9150 4100 8650 4100
+Wire Wire Line
+	8650 4100 8650 4050
+Wire Wire Line
+	8650 4050 8100 4050
+Wire Wire Line
+	9150 4200 8100 4200
+Wire Wire Line
+	9150 4300 8650 4300
+Wire Wire Line
+	8650 4300 8650 4350
+Wire Wire Line
+	8650 4350 8100 4350
+Wire Wire Line
+	9150 4400 8750 4400
+Wire Wire Line
+	8750 4400 8750 4500
+Wire Wire Line
+	8750 4500 8100 4500
+Wire Wire Line
+	9150 4500 8850 4500
+Wire Wire Line
+	8850 4500 8850 4650
+Wire Wire Line
+	8850 4650 8100 4650
+Wire Wire Line
+	9150 4600 8950 4600
+Wire Wire Line
+	8950 4600 8950 4800
+Wire Wire Line
+	8950 4800 8100 4800
 $EndSCHEMATC
