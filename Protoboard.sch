@@ -76,7 +76,7 @@ U 1 1 58C45292
 P 1000 2500
 F 0 "P3" H 1000 2800 50  0000 C CNN
 F 1 "CONN_01X05" V 1100 2500 50  0000 C CNN
-F 2 "Connectors_JST:JST_XH_S05B-XH-A_05x2.50mm_Angled" H 1000 2500 50  0001 C CNN
+F 2 "Connectors_JST:JST_XH_B05B-XH-A_05x2.50mm_Straight" H 1000 2500 50  0001 C CNN
 F 3 "" H 1000 2500 50  0000 C CNN
 	1    1000 2500
 	-1   0    0    1   
@@ -165,27 +165,23 @@ F 3 "" H 950 6250 50  0000 C CNN
 	1    950  6250
 	-1   0    0    1   
 $EndComp
-Text GLabel 2450 6600 2    60   Input ~ 0
+Text GLabel 2800 5900 2    60   Input ~ 0
 +5V
-Text GLabel 2800 6500 2    60   Input ~ 0
+Text GLabel 2450 6000 2    60   Input ~ 0
 GND
-Wire Wire Line
-	2450 6600 1150 6600
-Wire Wire Line
-	1150 6500 2800 6500
-Text GLabel 3200 6400 2    60   Input ~ 0
+Text GLabel 3200 6100 2    60   Input ~ 0
 SET
 Wire Wire Line
 	3200 6400 1150 6400
-Text GLabel 2450 6300 2    60   Input ~ 0
-RXD
 Text GLabel 2800 6200 2    60   Input ~ 0
+RXD
+Text GLabel 2450 6300 2    60   Input ~ 0
 TXD
 Wire Wire Line
 	2450 6300 1150 6300
 Wire Wire Line
 	1150 6200 2800 6200
-Text GLabel 3200 6100 2    60   Input ~ 0
+Text GLabel 3200 6400 2    60   Input ~ 0
 RESET
 Wire Wire Line
 	3200 6100 1150 6100
@@ -384,4 +380,10 @@ Wire Wire Line
 	9000 4700 9000 4950
 Wire Wire Line
 	9000 4950 8100 4950
+Text Notes 1000 6950 0    60   ~ 0
+Note the pins on this connector are reversed to what is in the datasheet for the PMS5003\n
+Wire Wire Line
+	1150 5900 2800 5900
+Wire Wire Line
+	2450 6000 1150 6000
 $EndSCHEMATC
