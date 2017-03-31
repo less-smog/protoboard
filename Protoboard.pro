@@ -1,4 +1,4 @@
-update=2017 March 31, Friday 22:07:58
+update=2017 March 31, Friday 22:34:46
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=leds
 LibName31=Worldsemi
+LibName32=vendor/lolin/lolin_v3
