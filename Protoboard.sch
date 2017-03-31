@@ -28,9 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:leds
-LIBS:Worldsemi
-LIBS:Protoboard-cache
+LIBS:lolin_v3
+LIBS:LoLin-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
