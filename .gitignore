@@ -1,2 +1,6 @@
 *~
 .DS_Store
+*.dsn
+*.bin
+*.ses
+*.kicad_pcb-bak
