@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 15.1375 19.479166 73.862501 87.1225)
+    (area 8.150001 12.3 125.862501 158.1225)
     (thickness 1.6)
     (drawings 22)
     (tracks 1012)
@@ -65,7 +65,7 @@
     (grid_origin 79 60)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00000_80000001)
+      (layerselection 0x00000_00000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 1.000000)
@@ -88,7 +88,7 @@
       (mirror true)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber))
+      (outputdirectory production))
   )
 
   (net 0 "")
